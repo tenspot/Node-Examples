@@ -6,3 +6,6 @@ December 2018
 
 My GitHub Repository:
 https://github.com/tenspot/Node-Examples.git
+
+To run an example from a terminal, start a cmd terminal, CD to the example directory
+and enter 'node filename.js' or 'nodemon node filename.js'.
