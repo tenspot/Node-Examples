@@ -1,5 +1,5 @@
 const fs = require('fs');
-console.log(fs.fs);
+
 // Create a file and write some text to it
 fs.writeFile('example.txt', 'This is an example text file.', (err) => {
 	if (err) {
@@ -20,6 +20,7 @@ fs.writeFile('example.txt', 'This is an example text file.', (err) => {
 	}
 });
 
+// NOTE!!! Rename does not work because of extra '/'s in file path, need to sort out...
 // Rename a file
 fs.rename('example.txt', 'example2.txt', (err) => {
 	if (err) {
